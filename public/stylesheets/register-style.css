@@ -1,0 +1,40 @@
+body{
+    background: linear-gradient( rgba(183,28,28,.6), rgba(183,28,28,.6) ), url('../images/register.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+.main-box{
+    background-color: white;
+    border: black;
+    border-style: solid;
+    align-items: center;
+    border: 2px;
+    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 50%;
+}
+@media only screen and (min-width: 601px) {
+    .container {
+        width: 45%;
+    }
+}
+@media only screen and (min-width: 993px) {
+    .container {
+        width: 40%;
+    }
+}
+.upper-box{
+    height: 30vh;
+}
+.button-border{
+    border: 3px;
+}

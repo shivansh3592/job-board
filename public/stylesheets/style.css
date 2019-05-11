@@ -1,0 +1,52 @@
+.upper-box {
+    border: 2px;
+    border-color: black;
+    /*border-style: solid;
+    */
+    height: 30vh;
+    color: white;
+    font-family: 'Sacramento', cursive;
+}
+.header-box{
+    background: linear-gradient( rgba(183,28,28,.6), rgba(183,28,28,.6) ), url('../images/background.jpg');
+    background-size: cover;
+}
+.text-header{
+    float: left;
+    vertical-align: bottom;
+}
+body{
+    background-color: rgb(235,237,241);
+}
+.job-box {
+    border: 2px;
+    background-color: #fff;
+    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.button-align{
+    float: right;
+    align-items: center;
+}
+.down-text {
+    position: relative;
+}
+.down-text span {
+    position: absolute;
+    bottom: 2%;
+    left: 10%;
+}
+.grow {
+    transition: all .2s ease-in-out;
+}
+.grow:hover {
+    transform: scale(1.1);
+}
+#logout-text{
+    color: white;
+    font-family: Montserrat;
+}

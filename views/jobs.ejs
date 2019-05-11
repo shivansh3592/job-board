@@ -1,0 +1,36 @@
+<% include partials/header %>
+<link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+<div class="row header-box header-image">
+    <div class="col s10 upper-box down-text">
+        <p class="flow-text text-header ">
+        <h1 class="text-header"><span>Job Board</span></h1>
+        </p>
+    </div>
+    <div class="col s2 upper-box">
+        <p class="flow-text"><a href="/logout" class="waves-effect red darken-2 btn-small" id="logout-text"> Logout</a></p>
+    </div>
+</div>
+<%# REPEAT %>
+<% data.forEach(function(job) { %>
+<div class="container">
+    <div class="row">
+        <div class="col s12 job-box z-depth-5 grow">
+            <p class="flow-text">
+            <h4><%= job["company"]%></h4>
+            <a class="waves-effect red darken-2 btn-small button-align" href="<%= job["url"]%>">
+                Apply
+            </a>
+            </p>
+            <p class="flow-text">
+            <h6><%= job["title"]%> , <%= job["location"]%></h6>
+            </p>
+        </div>
+    </div>
+</div>
+<%}) %>
+<%# REPEAT %>
+</body>
+</html>
+

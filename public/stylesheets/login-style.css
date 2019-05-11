@@ -1,0 +1,5 @@
+#body-background{
+    background: linear-gradient( rgba(183,28,28,.6), rgba(183,28,28,.6) ), url('../images/login.jpg');
+    background-size: cover;
+    background-position: center center;
+}
