@@ -5,7 +5,7 @@
 
 An Open source Job board for devlopers.
 
-**[Web Site](https://cinemafy.herokuapp.com/)**  
+**[Web Site](https://secret-mountain-34499.herokuapp.com/)**  
 
 ## Running website locally 
 	
