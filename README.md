@@ -5,7 +5,7 @@
 
 An Open source Job board for devlopers.
 
-**[Web Site](https://secret-mountain-34499.herokuapp.com/)**  
+**[Web Site](https://still-journey-73014.herokuapp.com/)**  
 
 ## Running website locally 
 	
